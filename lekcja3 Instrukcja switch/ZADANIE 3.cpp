@@ -6,7 +6,7 @@ int main() {
     char vehicleType;
     double fee;
 
-    cout << "Podaj liczbe godzin parkowania: ";
+    cout << "liczba godzin parkowania: ";
     cin >> hours;
 
     cout << "Podaj rodzaj pojazdu (S - samochod, M - motocykl, A - autobus): ";
@@ -26,7 +26,7 @@ int main() {
     cout << "Oplata za parkowanie: " << fee << " zl" << endl;
     break;
     default:
-    cout << "Nieznany typ pojazdu! Wybierz S, M lub A." << endl;
+    cout << "Nieznany pojazd Wybierz S, M lub A." << endl;
     }
 
     return 0;

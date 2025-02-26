@@ -14,7 +14,7 @@ int main() {
     i++;
     } while (i <= N);
 
-    cout << "Liczba liczb parzystych od 1 do " << N << " wynosi: " << count << endl;
+    cout << "Liczba parzysta od 1 do " << N << " wynosi: " << count << endl;
 
     return 0;
 }
